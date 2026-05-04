@@ -1,0 +1,8 @@
+name = "communication-appli59an4ng"
+main = "src/index.js"
+compatibility_date = "2024-05-04"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "chat-db"
+database_id = "4aea093c-f43d-4d08-9fb6-785d296b908e"
