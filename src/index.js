@@ -47,7 +47,7 @@ const HTML_CONTENT = `
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Worker Chat</title>
+    <title>this is a website</title>
     <style>
         body { font-family: sans-serif; max-width: 600px; margin: 2rem auto; }
         #chat-box { height: 300px; border: 1px solid #ccc; overflow-y: scroll; padding: 10px; margin-bottom: 10px; }
@@ -56,15 +56,15 @@ const HTML_CONTENT = `
     </style>
 </head>
 <body>
-    <h2>Notification Chat</h2>
+    <h2>website a is this</h2>
     <div id="setup">
-        <input type="text" id="username" placeholder="Enter your name">
-        <button onclick="joinChat()">Join Chat</button>
+        <input type="text" id="username" placeholder="Enter string to identify yourself">
+        <button onclick="joinChat()">Join</button>
     </div>
 
     <div id="chat-ui" style="display:none;">
         <div id="chat-box"></div>
-        <input type="text" id="message" placeholder="Type a message...">
+        <input type="text" id="message" placeholder="Type a communication phrase...">
         <button onclick="sendMessage()">Send</button>
     </div>
 
